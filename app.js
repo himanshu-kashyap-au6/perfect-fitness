@@ -31,6 +31,6 @@ app.use(require('./routers/normalRoutes/dietNormalRoutes'))
 app.use(require('./routers/apiRoutes/cartApiRoutes'))
 app.use(require('./routers/normalRoutes/cartNormalRoutes'))
 
-app.get('/', (_, res)=>{res.status(200).json({Hey: 'Your project is gonna be awesome....!!!!!!!' })})
+app.get('/', (_, res)=>{res.status(200).json({Greetings: 'Welcome to Perfect-fitness....!!!!!!!' })})
 
 module.exports = app
